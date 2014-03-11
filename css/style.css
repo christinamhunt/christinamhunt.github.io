@@ -1,0 +1,28 @@
+* {
+        margin:0;
+        padding:0;
+        font-family: Helvetica, Georgia, Arial;
+}
+
+/*Background for site*/
+
+
+/*Heading and Paragraph Rules*/
+
+
+/*Wrapper for site*/
+
+#wrapper {
+        width:960px;
+        overflow:auto;
+        margin-left:
+        margin-right:
+        background-color:white;
+        padding-bottom:15px;
+        padding-top:15px;
+}
+
+/*styles for links*/
+a   {
+    color:#31b7b1; /*teal to match header*/
+}
