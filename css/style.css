@@ -6,19 +6,19 @@
 /*Background for site created in Photoshop*/
 #background {
     position:fixed;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     min-width:100%;
     min-height:100%;
-    z-index:-1;
-    background-image:url(img/background.jpg);
+    z-index: -1;
+    background-image:url(css/background.jpg);
 }
     
 /*Header*/
 header  {
-    background-image:url(img/index.jpg);
-    width:960px;
-    height:auto;
+    background-image:url(css/namebanner.jpg);
+    width:1020;
+    height:213;
     margin-left:auto;
     margin-right:auto;
     margin-bottom: 15px;
@@ -32,7 +32,7 @@ header  {
         margin-left:auto;
         margin-right:auto;
         background-color:white;
-        padding-bottom:15px;
+        padding-bottom:30px;
         padding-top:15px;
 }
 
@@ -48,14 +48,38 @@ article a:visited, a:focus {
     text-decoration:none;
 }
 
-/*My top navigation*/
+/*My top navigation*/    
+
 nav {
-    width:960px;
-    font-size:24px;
-    margin:auto;
-    text-align: center;
-    border:1px
-}
+	width:960px;
+	font-size:24px;
+    text-align:center;
+    list-style:none;
+    border:1px;
+	}
+
+nav a {
+	display:inline-block;
+	color:white;
+	background-color:#f88379;
+	text-decoration:none;
+	padding:10px;
+	}
+    
+ nav a:hover,a:focus {
+	color:black;
+	text-decoration:none;
+	background-color:#f88379;
+	}
+
+nav p {
+	line-height:-2px;
+	font-size:9px;
+	text-indent:0px;
+	}        
+
+/*looked up how to do horizontal nav on two websites but only got it to stay horizontal if I leave all of the following in even though I only had to do the navs above for the footer and it worked*/
+
 
 nav ul ul {
     display:none;
@@ -82,10 +106,6 @@ nav ul li {
 nav ul li:hover a {
     color#000000;
     ]
-
-nav ul li a {
-        display: block;
-        padding: 10px 15px;
 
 /*Headings*/
 
@@ -181,7 +201,7 @@ article ul span	{
 article a.space	{
 	padding:10px;
 	}
-/*Hopefully this will make all of those links center and line up horizontally*/
+/*Got all of the links center and line up horizontally and made boxes*/
 article p.indent	{
 	text-align:center;
 	margin-top:20px;
@@ -199,15 +219,15 @@ footer nav {
 footer nav a {
 	display:inline-block;
 	color:white;
-	background-color:#6fc9c5;
+	background-color:#f88379;
 	text-decoration:none;
 	padding:5px;
 	}
-	
-footer nav a:hover,a:focus {
+    
+    footer nav a:hover,a:focus {
 	color:black;
 	text-decoration:none;
-	background-color:yellow;
+	background-color:#31b7b1;
 	}
 
 footer nav p {
