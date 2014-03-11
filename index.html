@@ -1,34 +1,56 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>CSS</title>title>
-        <link rel="stylesheet" href="css/base.css" />                             
- </head>
- <body>
-     <h1>Tag reference</h1>
-                                             
-      <ul>
-         <li>alpha</li>
-         <li>beta</li>
-         <li>gamma</li>
-       </ul>   
-                                    
-       <ol>
-          <li>one</li>
-          <li>two</li>
-          <li>three</li>  
-        </ol>
-                                
-        <dl>
-            <dt>Term</dt>
-            <dd>Definition</dd>
-            <dt>Up</dt>
-            <dd>Upside</dd>                       <dt>Down</dt>
-            <dd>Downside</dd>
-        </dl>                          
-                                     
-                                             </title></head></html>
-<hi>Hello world!</hi>
-<p>Type my bio and stuff here that I will use later.</p>
-My name is Christina.
-<p>Second paragraph.Type out and see it on the website.</p>
+<html lang="en">
+<head><!--Begin Head -->
+	<meta charset="utf-8" />
+	<title>Christina Hunt Journalist </title>
+         <h1>Christina Hunt Journalist</h1>
+	</head>
+<!--End Head -->
+<!--Begin Body -->
+<body>
+	<header> <!--Will create header in CSS -->
+	</header>
+	
+	<div id="background"> 
+	</div><!--Closes Background image div -->
+	
+	<div id="wrapper">
+	<aside>
+	<nav role="navigation">	
+		<ul class="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="bio.html">Biography</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="resume.html">Résumé</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	</aside>
+		
+	<article> <!--width will be 90% and will be on white background and then have patterned background behind that which will cover entire page behind it-->
+	<div id="CompositePicture"> <!--Seperate div is to make the caption line up with the bottom of the photo -->
+	<figure class="left">
+		<img src="img/profilepicture.jpg" width="320" height="320" alt="Profile Picture Christina Hunt" title="Profile Picture Christina Hunt" />
+		<figcaption> Caption for my photo?</figcaption>
+	</figure>
+	</div><!--close profile picture div -->
+	<section><!--To get content to right of photo -->
+	<h1>Subheadline Goes Here (quote?)</h1>
+	<p>I am a student at the <a href="http://www.ufl.edu" target="_blank">University of Florida</a> majoring in <a href="http://www.jou.ufl.edu" target="_blank">Journalism</a> and minoring in Business. After graduation I hope to work in the communications department of a company or to manage a publication.</p>
+	</section>
+	</article>
+<footer>
+	<nav role=”navigation”>
+		<a href=”index.html”>Home</a>
+		<a href=”bio.html”>Biography</a>
+		<a href=”blog.html”>Blog</a>
+		<a href=”portfolio.html”>Portfolio</a>
+		<a href=”resume.html”>Résumé</a>
+		<a href=”contact.html”>Contact</a>
+		<a class=”footerclear” href=”mailto:christinamhunt@ufl.edu”>Email Me</a>
+		<p>Site maintained by Christina Hunt
+		<br>Last updated Feb. 2014
+		<br>&copy; Copyright 2014</p>
+		</nav>
+	</footer>
