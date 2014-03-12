@@ -1,6 +1,6 @@
 * {
         padding:2px;
-        font-family: Helvetica, Georgia, Arial;
+        font-family: optima, arial, sans-serif;
 }
 
 /*Background for site created in Photoshop*/
@@ -84,7 +84,6 @@ h4 {
 }
 
 p {
-    font-family:arial, helvetica, sans-serif;
     font-size:14px;
     line-height:24px;
     text-indent:15px;
@@ -96,6 +95,8 @@ section {
 }
 
 /*top navigation*/
+
+/*tried to learn how to make horizontal links for nav on http://stackoverflow.com/questions/18839582/center-a-horizontal-css-menu but only the bottom one would separate, but found way to make it work on http://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/*/
 
 nav {
     width:960px;
