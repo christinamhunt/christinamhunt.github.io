@@ -1,0 +1,154 @@
+* {
+        padding:2px;
+        font-family: Helvetica, Georgia, Arial;
+}
+
+/*Background for site created in Photoshop*/
+#background {
+    position:fixed;
+    top: 0;
+    left: 0;
+    min-width:100%;
+    min-height:100%;
+    z-index: -1;
+    background-image:url(css/background.jpg);
+}
+    
+/*header*/
+
+
+header	{
+	background-image:url(css/banner.jpg); 
+	width:960px;
+	height:150px;
+	margin-left:30px;   
+	margin-right:30px; 
+	margin-bottom:30px;
+    padding-bottom:50px;
+    padding-top:30px;
+	}
+
+/*header still acting funky need to fix it and also need to make higher quality header*/
+
+/*wrapper*/
+
+#wrapper {
+    width:960px;
+    margin-left:30px;
+    margin-right:30px;
+    background-color:white;
+    padding-top:15px;
+    padding-bottom:30px;
+}
+
+/*headlines*/
+
+article {
+    margin: 30px 30px 10px 30px;
+}
+
+h1 {
+    font-size:36px;
+    font-style:none;
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:5px;
+    color:#C7F464;
+}
+
+h2 {
+    font-size:24px;
+    font-style:normal;
+    margin-top:10px;
+    margin-bottom:2px;
+    text-indent:15px;
+    color:#556270;
+}
+
+h3 {
+    font-size:16px;
+    font-style:normal;
+    margin-top:-1px;
+    margin-bottom:5px;
+    text-indent:15px;
+    color:#000000;
+}
+
+h4 {
+    font-size:12px;
+    font-style:normal;
+    margin-top:-1px;
+    margin-bottom:5px;
+    text-indent:15px;
+    color:#C44D58;
+}
+
+p {
+    font-family:arial, helvetica, sans-serif;
+    font-size:14px;
+    line-height:24px;
+    text-indent:15px;
+    margin:5px;
+}
+
+section {
+    margin-left:210px;
+}
+
+/*top navigation*/
+
+nav {
+    width:960px;
+    font-size:24px;
+    text-align:center;
+    list-style:none;
+}
+
+nav a {
+    display:inline-block;
+    color:white;
+    background-color:#f88379;
+    text-decoration:none;
+    padding:5px;
+}
+
+/*list styles*/
+
+article ul {
+    list-style-position:inside;
+    font-style:normal;
+    color:#C44D58;
+    margin-bottom:20px;
+}
+
+/*footer navigation*/
+
+footer nav {
+    width:960px;
+    font-size:14px;
+    text-align:center;
+    list-style:none;
+}
+
+footer nav a {
+    display:inline-block;
+    color:white;
+    background-color:#f88379;
+    text-decoration:none;
+    padding:5px;
+}
+
+/*this will make footer nav dark pink when you scroll over it*/
+
+footer nav a:hover,a:focus {
+    color:#000000;
+    text-decoration:none;
+    background-color:#C44D58;
+}
+
+/*make copyright and site maintained part of footer smaller*/
+
+footer nav p {
+    line-height:-1px;
+    font-size:10px;
+}
