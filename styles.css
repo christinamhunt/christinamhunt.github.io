@@ -122,6 +122,12 @@ article ul {
     margin-bottom:20px;
 }
 
+article a {
+    list-style-position:inherit;
+    font-style:normal;
+    margin-bottom:20px;
+}
+
 /*footer navigation*/
 
 footer nav {
@@ -145,6 +151,13 @@ footer nav a:hover,a:focus {
     color:#000000;
     text-decoration:none;
     background-color:#C44D58;
+}
+
+/*images*/
+
+img {
+    width:20%;
+    height:20%;
 }
 
 /*make copyright and site maintained part of footer smaller*/
