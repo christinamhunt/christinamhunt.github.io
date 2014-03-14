@@ -26,6 +26,7 @@ header	{
 	margin-bottom:30px;
     padding-bottom:50px;
     padding-top:30px;
+    align-content:center
 	}
 
 /*header still acting funky need to fix it and also need to make higher quality header*/
@@ -124,9 +125,11 @@ article ul {
 
 article a {
     list-style-position:inherit;
-    font-style:normal;
     margin-bottom:20px;
+    text-align:center;
 }
+
+
 
 /*footer navigation*/
 
@@ -153,12 +156,6 @@ footer nav a:hover,a:focus {
     background-color:#C44D58;
 }
 
-/*images*/
-
-img {
-    width:20%;
-    height:20%;
-}
 
 /*make copyright and site maintained part of footer smaller*/
 
